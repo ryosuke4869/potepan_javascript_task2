@@ -1,0 +1,39 @@
+body {
+  font-size: 25px;
+}
+
+.container {
+  margin: 30px;
+}
+
+#display {
+  background-color: aqua;
+  width: 800px;
+  text-align: right;
+  height: 50px;
+  font-size: 40px;
+  border: 1px solid;
+  border-color: black;
+}
+
+.keybord {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 50px 50px 50px 50px;
+  
+}
+
+.keybord2 {
+  display: grid;
+  grid-template-columns: 400px 400px ;
+  grid-template-rows: 50px;
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid;
+  border-color: black;
+}
+
+
