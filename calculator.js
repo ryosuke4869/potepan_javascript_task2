@@ -1,7 +1,5 @@
 'use strict';
 let display = document.getElementById("display");
-let all_clear = document.getElementById("all_clear");
-let equal = document.getElementById("all_clear");
 
 function btn_click(target){
   let number = target.innerHTML; 
