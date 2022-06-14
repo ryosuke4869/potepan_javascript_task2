@@ -16,4 +16,15 @@ function btn_click(target){
     }
 }
 
-
+function ope_click(operator){
+    var operator = operator.innerHTML;
+    var display_ope = display.innerHTML.slice(0,-1);
+    let slice = display.innerHTML.slice(-1);
+  
+    if (slice != "+" && slice != "-"&& slice != "*"&& slice != "/") { //+,-,*,/のいずれかが文字列の最後ではない時に処理
+      display.innerHTML += operator;//displayにdisplayに入力されているものと演算子を加える
+    }else if (slice == "+" || slice == "-" || slice == "*" || slice == "/"){ //+,-,*,/のいずれかが文字列の最後だった際
+      display.innerHTML = display_ope + operator; //演算子を上書き
+    } else {
+      //処理なし
+    }}
